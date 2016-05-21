@@ -1,0 +1,76 @@
+@keyframes tt {
+	0%{
+		opacity: 0
+	}
+	20%{
+		color: black;
+	}
+	40%{
+		color: brown;				
+	}
+	60%{
+		color: red;
+	}
+	80%{
+		color: orange;
+	}
+	100%{
+		color: yellow;
+		transform: translate(-100%,0);
+		opacity: 1;
+	}
+}		
+p{
+	
+	opacity: 1;	
+	animation: tt 30s ease infinite;
+
+
+}
+#dau{
+	opacity: 1;
+	animation: tt 30s ease infinite;
+	
+}
+#giua{
+	opacity: 1;
+	
+	animation: tt
+	30s ease infinite;
+	
+}
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*background-image: url(gio.gif);*/
+	
+}
+.arrow_box {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #88b7d5;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #c2e1f5;
+	border-width: 36px;
+	margin-top: -36px;
+}
