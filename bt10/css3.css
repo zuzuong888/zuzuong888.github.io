@@ -1,0 +1,121 @@
+ul > li > ul{
+           display: none;
+           background: #E4E8CF;
+    color: yellow;
+    padding: 0;
+
+      }
+     ul > li:hover > ul{
+            display: block;
+
+          }
+
+ h3{
+    color: brown;
+    margin: 2
+
+
+
+
+ } 
+ ul{
+    position: absolute;
+            width: 200px;
+    z-index: 9999;
+    
+ }
+li{
+    list-style-type: none;
+    margin: 35px;
+
+} 
+
+ a:hover{
+     color: orange;
+     font-size: 18px;
+
+
+}
+a{
+    text-decoration: none;
+    color: green ;
+}
+div{
+    text-align: center;
+
+    
+}
+
+.thumbnail{
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+    opacity: 1;
+    transition: all 5s;
+}
+.thumbnail:hover{
+    opacity: 0.8;
+    transform: translate(0,-5px);
+    transition: all 0.5s;
+    box-shadow: 0 5px 5px 0px rgba(9,8,4,0.8)
+}
+@keyframes ti {
+            0%{
+                background-color: yellow;
+            }
+            20%{
+                color: red;
+                background-color: yellow;
+            }
+            40%{
+                color: black;
+                background-color:red;
+            }
+            60%{
+                color: pink;
+                background-color: gray;
+            }
+            100%{
+                color: orange;
+                background-color: green;
+            }
+        }
+h1 {
+    text-align: center;
+    color: black;
+    animation: ti 10s ease infinite;
+}
+#bot{
+    background-color: #FFC509;
+   
+    height: 300px;
+    margin-top: -12px;
+}
+#banner{
+    
+    width: 1000px;
+    height: 242px;
+}
+body{ 
+   background-color: rgba(45,95,61,0.73);   
+   
+}
+.container{
+    background-color:#6B8000;
+     max-width: 1000px;
+    margin: auto;
+    border: 2px gray solid;
+    box-shadow: 0 5px 30px 0px rgba(9,8,4,0.8);
+
+}
+.adress{
+    position: fixed;
+    color: #25253A;
+    right: 2px;
+    bottom: 0;
+    width: 186px
+    
+
+
+}
+
